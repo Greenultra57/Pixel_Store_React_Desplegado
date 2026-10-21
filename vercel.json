@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "all": {
+      "root": "html-reference/all",
+      "runtime": "node"
+    },
+    "pixel-store": {
+      "root": "Pixel-Store",
+      "framework": "vite"
+    }
+  },
+  "rewrites": []
+}

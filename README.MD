@@ -59,4 +59,4 @@ El entorno de ejecución de Vite y las dependencias del proyecto se encuentran e
 ## Enlaces
 
 * **Link vercel proyecto:** [Pendiente / Por agregar]
-* **Link de github del react y html:** https://github.com/Greenultra57/final_pixel_store_Greenultra57.git
+* **Link de github del react y html:** https://github.com/Greenultra57/Pixel_Store_React_Desplegado.git
