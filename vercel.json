@@ -1,14 +1,14 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "services": {
-    "all": {
-      "root": "html-reference/all",
-      "runtime": "node"
-    },
-    "pixel-store": {
-      "root": "Pixel-Store",
-      "framework": "vite"
+  "buildCommand": "npm --prefix Pixel-Store run build",
+  "outputDirectory": "Pixel-Store/dist",
+  "installCommand": "npm --prefix Pixel-Store install",
+  "framework": "vite",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/((?!.*\\.[\\w]+$).*)",
+      "destination": "/index.html"
     }
-  },
-  "rewrites": []
+  ]
 }

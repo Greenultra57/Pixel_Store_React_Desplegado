@@ -1,0 +1,15 @@
+{
+  "name": "pixel-store-react-desplegado",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix Pixel-Store run dev",
+    "build": "npm --prefix Pixel-Store run build",
+    "lint": "npm --prefix Pixel-Store run lint",
+    "preview": "npm --prefix Pixel-Store run preview"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
